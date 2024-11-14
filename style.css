@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "gilroy"; */
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(118, 156, 118); */
+  /* background-image: url(./image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%); */
+  background-image: linear-gradient(-20deg, #4d4b4b 0%, #9bc5c3 100%);}
+#panel {
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(133, 198, 152);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#top {
+  padding: 0px 20%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 90px;
+  /* background-color: rgb(82, 112, 96); */
+  background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+}
+.elem {
+  display: flex;
+  /* width: 10%; */
+  align-items: center;
+  gap: 20px;
+}
+.box {
+  color: rgb(46, 67, 56);
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+#bottom {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  width: 100%;
+  height: calc(100% - 90px);
+  /* background-color: black; */
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  /* background-color: rgb(22, 91, 69); */
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+  color: white;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.bubble:hover{
+    cursor: pointer;
+    /* background-color: rgb(18, 71, 54);
+     */
+     background-image: linear-gradient(-20deg, #424141 0%, #86a7a5 100%);
+
+  }
+h2{
+  text-shadow: 3px -2px 9px rgba(0,0,0,0.56);
+}
